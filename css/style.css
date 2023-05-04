@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+#loader {
+    border: 16px solid #bf7d47;
+    border-top: 16px solid #80430d;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+body {margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: rgb(235, 218, 193)}
+
+body .formulario {
+    width: 100vw;
+    margin: auto;
+}
+
+
+
+body .formulario .centrado {
+    width: 25vw;
+    height: 25vh;
+    margin: auto;
+    margin-top: 150px;
+}
+body .formulario .centrado form {
+    width: 100%;
+    margin: auto;
+}
+body .formulario .centrado form label p{
+    font-size: 25px;
+    font-family:'Alumni Sans', sans-serif;
+    text-align: center;
+}
+
+body .formulario .centrado form input {
+    width: 100%;
+    height: 25px;
+    border-radius: 6px;
+}
+
+body .formulario .centrado form button {
+    border-radius: 6px;
+    width: 100%;
+    height: 35px;
+    background-color: #212121;
+    border-color: #212121;
+    color: white;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+body .formulario .centrado form .registrologin{
+    font-family: 'Alumni Sans', sans-serif;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+body .formulario .centrado form .registrologin span {
+    text-decoration: none;
+    color: #9e4806;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(208, 180, 139);
+    
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 180px 70px;
+    grid-auto-rows: 1fr;
+    column-gap: 81%;
+    grid-column-start: 1;
+    grid-column-end: 2;}
+
+header nav h2 {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color: blanchedalmond;
+    }
+
+header nav .botoncolormio {
+    width: 60px;
+    height: 60px;
+    background-color: white;   
+    border-color: white;
+} 
+
+
+header nav .botoncolormio .botonm {
+    width: 35px;
+    height: 35px;
+    margin-left: -2px;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.imagcar{
+    width:35px;
+    height: 35px;
+    margin: auto;}
+
+header nav .botoncolormio .botonm p{
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    margin-top: -4px;
+}
+nav .modalmine {
+    background-color: white;
+    border-color: white;
+}
+
+nav .modelmine .words {
+    font-size: 30px;
+    color: black;
+}
+
+nav .navshop h2 {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+nav .navshop ul {
+    font-size: 18px;
+    color: black;
+    list-style: none;
+}
+
+nav .navshop ul button {
+    background-color: rgba(0, 0, 0, 0.643);
+    color: white;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.643);
+    height: 25px;
+    width: 70px;
+    font-size: 15px;
+}
+
+nav .navshop ul button:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+nav .navshop p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav .navshop .btnshopcart{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border-color: black;
+    font-size: 14px;
+}
+
+nav .footermine {
+    border-color: rgba(0, 0, 0, 0.731);
+    height: 65px;
+}
+
+nav .footermine .btnclose {
+    background-color: rgba(205, 205, 205, 0.603);
+    border-color: rgba(205, 205, 205, 0.603);
+    color: black;
+    border-radius: 6px;
+}
+
+nav .footermine .btnclose:hover {
+    background-color: rgb(183, 183, 183);
+    border-color: rgb(183, 183, 183);
+    border-radius: 6px;
+}
+
+nav .footermine .btnsave {
+    background-color: rgba(0, 112, 0, 0.514);
+    border-color: rgba(0, 112, 0, 0.514);
+    border-radius: 6px;
+    color: black;
+    
+}
+
+nav .footermine .btnsave:hover {
+    background-color: rgb(4, 114, 4);
+    border-color: rgb(4, 114, 4);
+    color: white;
+    
+}
+
+main {
+    background-color: rgb(235, 218, 193);
+    padding-bottom: 40px;
+}
+
+main h1 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+    color: rgb(115, 83, 34);
+}
+
+main .contenedor {
+    background-color: rgb(235, 218, 193);
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    
+}
+
+main .contenedor div {
+    border-color: rgba(161, 161, 161, 0.078);
+    background-color: white;
+    width: 300px;
+    height: 440px;
+    border-radius: 10px;
+
+}
+
+main .contenedor div:hover {
+    background-color: #d0b48b;
+    width: 320px;
+    height: 460px;
+}
+
+main .contenedor img {
+    width: 250px;
+    height: 275px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+main .contenedor h3 {
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
+main .contenedor p {
+    font-size: 18px;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+}
+
+main .contenedor button {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin: auto;
+    border-radius: 6px;
+}
+
+main .contenedor .confirmacion {
+    display: none;
+    width: 300px;
+    height: 30px;
+    background-color: #6f4505;
+    color: white;
+    font-size: 25px;
+    font-family:'Alumni Sans', sans-serif;
+    text-align: center;
+}
+
+
+footer {
+    padding: 20px;
+    height: 80px;
+    width: 100%;
+    background-color: black; 
+}
+
+footer p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.235);
+    text-align: center;
+}

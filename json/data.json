@@ -1,0 +1,129 @@
+{"productos": [
+    {"id":1,
+    "nombre":"Taza BB8",
+    "precio":25,
+    "imagen":"./assets/bb8mug.jpeg",
+    "extra":"Star Wars"},
+
+    {"id":2,
+    "nombre":"Taza Cactus",
+    "precio":14,
+    "imagen":"./assets/cactusmug.jpeg",
+    "extra":"Otros"},
+
+    {"id":3,
+    "nombre":"Taza Cámara",
+    "precio":15,
+    "imagen":"./assets/cameramug.jpeg",
+    "extra":"Otros"},
+
+    {"id":4,
+    "nombre":"Taza Vaca",
+    "precio":10,
+    "imagen":"./assets/cowmug.jpeg",
+    "extra":"Animales"},
+
+    {"id":5,
+    "nombre":"Taza Darth Vader",
+    "precio":20,
+    "imagen":"./assets/darthvadermug.jpeg",
+    "extra":"Star Wars"},
+
+    {"id":6,
+    "nombre": "Taza Dinosaurio",
+    "precio":13,
+    "imagen":"./assets/dinomug.jpeg",
+    "extra":"Animales"},
+
+    {"id":7,
+    "nombre":"Taza Elefante",
+    "precio":10,
+    "imagen":"./assets/elephantmug.jpeg",
+    "extra":"Animales"},
+
+    {"id":8,
+    "nombre":"Taza Galletita de jengibre",
+    "precio":10,
+    "imagen":"./assets/gingermug.jpeg",
+    "extra":"Otros"},
+
+    {"id":9,
+    "nombre":"Taza Grinch",
+    "precio":13,
+    "imagen":"./assets/grinchmug.jpeg",
+    "extra":"Otros"},
+
+    {"id":10,
+    "nombre":"Taza Grogu",
+    "precio":20,
+    "imagen":"./assets/grogumug.jpeg",
+    "extra":"Star Wars"},
+
+    {"id":11,
+    "nombre":"Taza Mandolarian",
+    "precio":20,
+    "imagen":"./assets/mandomug.jpeg",
+    "extra":"Star Wars"},
+
+    {"id":12,
+    "nombre": "Taza Mono",
+    "precio":10,
+    "imagen":"./assets/monkeymug.jpeg",
+    "extra":"Animales"},
+
+    {"id":13,
+    "nombre":"Taza Pulpo",
+    "precio":10,
+    "imagen":"./assets/octopusmug.jpeg",
+    "extra":"Animales"},
+
+    {"id":14,
+    "nombre":"Taza Panda",
+    "precio":13,
+    "imagen":"./assets/pandamug.jpeg",
+    "extra":"Animales"},
+
+    {"id":15,
+    "nombre":"Taza Pingüino",
+    "precio":10,
+    "imagen":"./assets/penguinmug.jpeg",
+    "extra":"Animales"},
+
+    {"id":16,
+    "nombre":"Taza Perezoso",
+    "precio":13,
+    "imagen":"./assets/perezosomug.jpeg",
+    "extra":"Animales"},
+
+    {"id":17,
+    "nombre":"Taza Calabaza",
+    "precio":10,
+    "imagen":"./assets/pumpkinmug.jpeg",
+    "extra":"Otros"},
+
+    {"id":18,
+    "nombre":"Taza Santa",
+    "precio":10,
+    "imagen":"./assets/santamug.jpeg",
+    "extra":"Otros"},
+
+    {"id":19,
+    "nombre":"Taza Snoopy",
+    "precio":13,
+    "imagen":"./assets/snoopymug.jpeg",
+    "extra":"Otros"},
+
+    {"id":20,
+    "nombre":"Taza Estrellas",
+    "precio":15,
+    "imagen":"./assets/starsmug.jpeg",
+    "extra":"Otros"},
+
+    {"id":21,
+    "nombre":"Taza Stormtrooper",
+    "precio":20,
+    "imagen":"./assets/stormtroopermug.jpeg",
+    "extra":"Star Wars"}
+
+]}
+
