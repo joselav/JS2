@@ -14,7 +14,7 @@ function login() {
     if (user && user.password === password) {
       // Muestra mensaje de bienvenida en la página de inicio (Esto está por modificarse en la próxima entrega)
       const mensajeBienvenida = 'Bienvenido, ' + user.name + "!";
-      Swal.fire(mensajeBienvenida)
+      Swal.fire(mensajeBienvenida);
       }
       else{
         Swal.fire({
