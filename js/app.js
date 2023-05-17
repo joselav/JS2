@@ -27,7 +27,7 @@ let totalItems = 0;
 
 ///
 // Para obtener los datos de data.json
-fetch('/json/data.json')
+fetch('./json/data.json')
   .then(response => response.json())
   .then(data => {
     productos = data.productos;
