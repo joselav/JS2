@@ -1,3 +1,9 @@
+///LOADER
+window.addEventListener("load", function(){
+  document.getElementById("loader").classList.toggle("loader2")
+})
+
+
 ///
 const login = document.getElementById("registrolog");
 const registrarse = document.getElementById("registro");
@@ -16,9 +22,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const user = JSON.parse(localStorage.getItem(username));
 
     if (user) {
-      alert("Este nombre de usuario ya está registrado");
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Este nombre de usuario ya está registrado.',
+      })
     } else if (!name || !username || !password) {
-      alert("Debe rellenar el formulario para registrarse");
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Debe rellenar el formulario para registrarse.',
+      })
     } else {
       // Almacena información de usuario en localStorage
       localStorage.setItem(username, JSON.stringify({

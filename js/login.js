@@ -1,4 +1,8 @@
-///INICIAR SESIÓN
+///INICIAR SESIÓN///LOADER
+window.addEventListener("load", function(){
+  document.getElementById("loaderlo").classList.toggle("loaderlo2")
+})
+
 
 function login() {
     // Obtiene los valores de inicio de sesión del formulario
@@ -10,10 +14,14 @@ function login() {
     if (user && user.password === password) {
       // Muestra mensaje de bienvenida en la página de inicio (Esto está por modificarse en la próxima entrega)
       const mensajeBienvenida = 'Bienvenido, ' + user.name + "!";
-      alert(mensajeBienvenida) 
+      Swal.fire(mensajeBienvenida)
       }
       else{
-        alert("Usuario o contraseña incorrectos")
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Usuario o contraseña incorrectos, vuelva a intentarlo.',
+        })
       } 
       // Redirige al usuario a la página de productos
       window.location.href = "productos.html";
