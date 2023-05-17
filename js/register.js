@@ -1,7 +1,8 @@
 ///LOADER
 window.addEventListener("load", function(){
-  document.getElementById("loader").classList.toggle("loader2")
+  document.getElementById("loaderlo").classList.toggle("loaderlo2")
 })
+
 
 
 ///
