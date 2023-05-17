@@ -25,6 +25,7 @@ let shopcart = [];
 let totalShopcart = 0;
 let totalItems = 0;
 
+///
 // Para obtener los datos de data.json
 fetch('/json/data.json')
   .then(response => response.json())
@@ -82,9 +83,7 @@ fetch('/json/data.json')
   })
   .catch(error => console.error('Error al obtener los datos del archivo JSON', error));
 
-
-  
-  
+////  
 
   ///Carrito de compras, agregar al carrito
 const agregarAlShopcart = (id) => {
