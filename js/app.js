@@ -57,7 +57,7 @@ fetch('json/data.json')
 
         button.addEventListener('click', function() {
               Swal.fire({
-                position: 'top-end',
+                position: 'top',
                 icon: 'success',
                 title: 'Se ha agregado al carrito',
                 showConfirmButton: false,
